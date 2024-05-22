@@ -1,0 +1,207 @@
+body {
+  margin: 0;
+}     
+.hero {
+    display: flex;
+    flex-direction: column;
+    background-image: url("https://img.freepik.com/free-photo/global-business-internet-network-connection-iot-internet-things-business-intelligence-concept-busines-global-network-futuristic-technology-background-ai-generative_1258-176947.jpg?size=626&ext=jpg&ga=GA1.1.1546980028.1704067200&semt=ais");//("https://s3.envato.com/files/203916193/Lines%20Technology%20Yellow%20Background%20590x300.jpg");
+    height: 30vh;
+    align-self: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    align-items: center;
+    justify-content: center;
+}
+      
+.text {
+    font-size: 1.4rem;
+    text-align: center;
+    color: white;
+    
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+
+  z-index: 1; /* pysyy ylhäällä */
+  top: 0; /* sama juttu */
+  
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #fa5b1b;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+div.content {
+  margin-left: 130px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.paluu {
+  text-align:left;
+  //padding:2px;
+  //background-color: #f59116;
+  position: relative;
+  left: 25px;
+  
+  
+}
+/*galleria alla*/
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
+
+.lomake {
+  font-family:verdana;
+  font-size:20px;
+  /*text-align: center;*/
+  padding:10px;
+  background-color: #fa5b1b;
+  padding-left:215px;
+}
+  
+.s-posti {
+  position: relative;
+  left: 10px;
+}
+
+.napit {
+  margin: 0;
+  padding: 0;
+  width: 130px;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  
+  z-index: 1; /* pysyy ylhäällä */
+  top: 0; /* sama juttu */
+}
+
+.napit a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.napit a.active {
+  background-color: #133e5e;
+  color: white;
+}
+
+.napit a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+div.content3 {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+}
+
+@media screen and (max-width: 700px) {
+  .napit {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .napit a {float: left;}
+  div.content3 {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .napit a {
+    text-align: center;
+    float: none;
+  }
+}
